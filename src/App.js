@@ -15,14 +15,6 @@ import './App.css';
 import {auth, createUserProfileDocument } from './firebase/firebase.utils';
 
 
-
-
-//
-
-
-
-
-
 class App extends React.Component {
  unsubscribeFromAuth = null
 
