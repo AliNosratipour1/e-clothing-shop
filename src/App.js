@@ -37,6 +37,7 @@ const {setCurrentUser} = this.props;
     
     }
     setCurrentUser(userAuth);
+   
    });
  }
 
@@ -73,6 +74,7 @@ const {setCurrentUser} = this.props;
 
 const mapStateToProps = createStructuredSelector ({
    currentUser: selectCurrentUser
+  
 });
 
 
@@ -83,6 +85,7 @@ const mapDispatchTopProps = dispatch => ({
 
 export default connect(
   mapStateToProps,
-  mapDispatchTopProps
+  mapDispatchTopProps,
+  
  
  )( App);
